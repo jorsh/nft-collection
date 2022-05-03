@@ -1,6 +1,5 @@
 export const NFT_CONTRACT_ADDRESS = "0x77FCF66E89671bA73D4417f5e4bC8B911d36149f"
-export const abi = {
-    "abi": [
+export const abi = [
         {
             "inputs": [
                 {
@@ -64,5 +63,4 @@ export const abi = {
             "stateMutability": "view",
             "type": "function"
         }
-    ]
-}
+    ];
