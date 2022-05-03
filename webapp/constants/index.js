@@ -1,4 +1,4 @@
-export const NFT_CONTRACT_ADDRESS = "0x77FCF66E89671bA73D4417f5e4bC8B911d36149f"
+export const NFT_CONTRACT_ADDRESS = "0x9929B8e4FF3A9a0f54292881131Ab4F12bdEC842"
 export const abi = [
     {
         "inputs": [
@@ -390,6 +390,19 @@ export const abi = [
             }
         ],
         "name": "setApprovalForAll",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "baseURI",
+                "type": "string"
+            }
+        ],
+        "name": "setBaseURI",
         "outputs": [],
         "stateMutability": "nonpayable",
         "type": "function"
